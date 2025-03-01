@@ -1,0 +1,101 @@
+*{
+    text-decoration: overline;
+    background-color: #e7f4ff;
+    
+}
+
+
+.blue{
+    color: #2473a8;
+}
+.negrilla{
+    font-weight: bolder;
+}
+.cute{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input[type=text]{
+    color: #0e0527;
+    background-color: #c2d0f0;
+}
+
+input[type=email]{
+    color: #5c1869;
+    background-color: #cdd0eb;
+}
+
+input[value]{
+    font-style: italic;
+    background-color: #aad8f7;
+}
+/*hola*/
+
+h1{
+    font-size: 58px; /*tamaño de fuente*/
+    font-family:Arial, Helvetica, sans-serif; /*tipo de fuente*/
+    color: #182f44;
+    background-color: #bfcfe9;
+    font-weight: normal; /*negrilla*/
+    font-style: italic; /*estilo de fuente*/
+    text-align: center; /*ubicacion letra*/
+    text-decoration: underline;
+    text-transform: uppercase; /*transformación*/
+    text-decoration-color: #0a0b3b;
+    text-decoration-style: dotted;
+    text-shadow: 1px 2px 2px#4897cc; /*sombra*/
+    text-indent: 10px; /*sangria*/
+    word-spacing: 24px;
+    letter-spacing: 15px;
+    word-wrap: break-word; /*salto de linea*/
+
+    border-width: 5px; /*ancho de borde*/
+    border-style:dashed; /*estilo de linea*/
+    border-color: #395b8880 ;
+    border:5px solid rgb(37, 36, 121); 
+    border-radius: 16px; /*redondear la punta de los bordes*/
+    border-bottom-style: dotted;
+    border-left-color: #622b8f;
+    border-bottom: #b3632e80;
+    border-bottom-left-radius: 50%;
+}
+
+.bg{
+    border: 1px solid #0a0b3b;
+    margin: 16px;
+    margin: 16px 20px 28px;
+    margin: 16px 20px 28px 24px;
+    margin-top: 60px; margin-block-start: 60px; /*son iguales*/
+    margin-bottom: 40px; margin-block-end: 40px; /*son iguales*/
+    margin-inline: 30px; /*aplica para ambos lados*/
+    margin-inline-start:20px;/*left*/
+    margin-inline-end:20px;/*right*/
+    
+    padding: 10px;
+    width:60vw;
+    height: 60vw;
+    background-color: #aad8f7;
+    background-image: url('../recursos/bluebg.jpg');
+    background-size: cover;
+    /*background-repeat: no-repeat; para que no se repita la imagen*/
+    /*background-position: 20px 25px; para definir la ubicación xy*/
+    box-shadow: 10px 10px 10px 2px #0e0527;  /*mov x,y,difuminado,grosor*/
+
+}
+
+.botton{
+    width: 150px;
+    height: 80px;
+    color: #aad8f7;
+    background-color: #4f82ce;
+    transition-property: background-color, color, width;
+    transition-duration: 2s,3s,500ms;
+    transition-timing-function: initial;
+    transition-delay: 1s;
+}
+
+.botton:hover{
+    width: 250px;
+    background-color: #aad8f7;
+    color: #0e0527
+}
