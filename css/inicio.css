@@ -99,3 +99,26 @@ h1{
     background-color: #aad8f7;
     color: #0e0527
 }
+
+.c1{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #0e0527;
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    
+    animation-name: animation1;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 5;
+    animation-direction: alternate;
+
+}
+@keyframes animation1{
+    from{left:0px;
+    background-color: #4f82ce; }
+    to{left:100vw;
+    background-color: #622b8f;
+}}
