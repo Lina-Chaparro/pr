@@ -1,0 +1,49 @@
+.grid-content{
+    width: 60vw;
+    height: 80vh;
+    margin: auto;
+    margin-bottom: 10vh;
+    border: 2px solid rgb(107, 27, 47);
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-areas: /*". . . ." estructura para la distribucion con puntitos */
+    "nav header header header" 
+    "nav section section chunchulla" 
+    "nav section section ." 
+    "nav section section footer" ;
+    /*row-gap:;
+    column-gap:;*/
+    gap:1px;
+}
+
+.grid-content header{
+    grid-area: header;
+    background-color: rgb(123, 169, 238);
+    height: 100%;
+    width: 100%;
+}
+.grid-content nav{
+    grid-area: nav;
+    background-color: rgba(184, 240, 207, 0.788);
+    height: 100%;
+    width: 100%;
+}
+.grid-content section{
+    grid-area: section;
+    background-color: rgb(226, 174, 203);
+    height: 100%;
+    width: 100%;
+}
+.grid-content div{
+    grid-area: chunchulla;
+    background-color: rgb(184, 174, 147);
+    height: 100%;
+    width: 100%;
+}
+.grid-content footer{
+    grid-area: footer;
+    background-color: rgb(125, 193, 197);
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,17 @@
+.flex-content{
+    width: 60vw;
+    height: 80vh;
+    margin: auto;
+    margin-bottom: 10vh;
+    border: 2px solid rgb(60, 18, 139);
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap; /*salto de linea*/
+    align-items: center; /*alinear*/
+    justify-content: center;
+    gap: 6px; /*espacio entre elementos*/
+}
+/*reverse: invierte la lista*/
+/*row: uno al lado del otro*/
+
+/*spcace around: distribuye los elementos*/

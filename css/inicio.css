@@ -117,8 +117,29 @@ h1{
 
 }
 @keyframes animation1{
-    from{left:0px;
+    /*from{left:0px;
     background-color: #4f82ce; }
     to{left:100vw;
     background-color: #622b8f;
-}}
+    }*/
+    0%{
+        left: 0px;
+        background-color: #dcdf5c80;
+    }
+    25%{
+        top: 800px;
+    }
+    50%{
+        border-radius: 0px;
+        box-shadow: 1px 1px 5px 10px #0a0b3b;
+    }
+    75%{
+        height: 300px;
+    }
+    100%{
+        left: 100vw;
+        background-color: #622b8f;
+    }
+}
+
+
